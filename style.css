@@ -95,3 +95,19 @@ div.title-team{
     width: 100%;
     background-color: deeppink;
 }
+/*--PARTNER--*/
+section.partner{
+    height: 90vh;
+    padding: 5rem 0;
+    background-color: lightgray;
+}
+div.left-partner-img{
+    width: 50%;
+    height: 100%;
+    background-color:rgb(128, 101, 27);
+}
+div.right-partner-text{
+    width: 50%;
+    height: 100%;
+    background-color: #b4d0e7;
+}
