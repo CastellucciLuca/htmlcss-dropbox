@@ -146,3 +146,26 @@ section.users{
     height: 40vh;
     padding: 3rem 0;
 }
+/*--COMPANY PARTNERS--*/
+section.company-partner{
+    width: 100%;
+    height: 70vh;
+}
+div.company-partner-description{
+    width: 30%;
+    height: 100%;
+    background-color: lightgrey;
+}
+div.company-partner-square{
+    width: 35%;
+    height: 100%;
+    background-color: crimson;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.company-partner-square-box{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    background-color: orange;
+    border: 1px solid black;
+}
