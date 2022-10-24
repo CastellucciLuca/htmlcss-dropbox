@@ -79,3 +79,19 @@ div.title-box-plan{
     width: 100%;
     background-color: deeppink;
 }
+/*--PLAN--*/
+section.team{
+    width: 100%;
+    height: 50vh;
+    padding: 3rem 0;
+}
+div.box-team{
+    height: 100%;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+div.title-team{
+    height: 20%;
+    width: 100%;
+    background-color: deeppink;
+}
