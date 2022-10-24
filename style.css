@@ -140,3 +140,9 @@ div.business-features-card-box-text{
     height: 60%;
     background-color: grey;
 }
+/*--USERS--*/
+section.users{
+    width: 100%;
+    height: 40vh;
+    padding: 3rem 0;
+}
