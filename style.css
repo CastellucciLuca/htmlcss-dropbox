@@ -21,6 +21,10 @@
     border: 1px solid orange;
     position: relative;
 }
+/*--BODY--*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /*--HEADER--*/
 header section.nav{
     width: 100%;
@@ -39,8 +43,8 @@ header section.jumbo{
     background-color: #b4d0e7;
 }
 div.jumbo-img{
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
     position: absolute;
     bottom: -30px;
     right: 0; 
