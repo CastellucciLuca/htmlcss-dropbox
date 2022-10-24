@@ -169,3 +169,10 @@ div.company-partner-square-box{
     background-color: orange;
     border: 1px solid black;
 }
+/*--TRY DROPBOX--*/
+section.try-dropbox{
+    width: 100%;
+    height: 40vh;
+    padding: 3rem 0;
+    background-color: #b4d0e7;
+}
