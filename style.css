@@ -113,9 +113,9 @@ div.jumbo-button{
 }
 div.arrow-down{
     position: absolute;
-    bottom: 0%;
+    bottom: -5%;
     left: 5%;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 
 }
 div.jumbo-img{
