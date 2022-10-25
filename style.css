@@ -229,19 +229,35 @@ div.right-team-button{
 }
 /*--PARTNER--*/
 section.partner{
-    height: 90vh;
+    min-height: 450px;
+    max-height: 560px;
+    height: 100vh;
     padding: 5rem 0;
-    background-color: lightgray;
 }
 div.left-partner-img{
-    width: 50%;
+    width: 55%;
     height: 100%;
-    background-color:rgb(128, 101, 27);
+    background-image: url(img/partner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 div.right-partner-text{
-    width: 50%;
+    width: 45%;
     height: 100%;
-    background-color: #b4d0e7;
+    padding: 1rem;
+    margin-top: 6rem;
+}
+div.right-partner-text p{
+    margin: 2rem 0;
+}
+div.right-partner-text button{
+    margin-top: 0.8rem;
+}
+.button-white{
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.8rem;
+    cursor: pointer;
 }
 /*--BUSSINESS FEATURES--*/
 section.business-features{
