@@ -263,36 +263,49 @@ div.right-partner-text button{
 section.business-features{
     width: 100%;
     height: auto;
-    padding: 5rem 0;
+    padding: 3rem 0;
     background-color: white;
+}
+section.business-features h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 div.business-features-row{
     width: 100%;
-    border: 1px solid blue;
+    height: auto;
     padding-top: 1rem;
 }
 article.business-features-card{
     width: calc((100% / 3) - .4rem);
-    height: 350px;
-
-    margin: 0 .4rem;
-    background-color: #b4d0e7;
+    height: 450px;
+    margin: 0 .4rem;;
 }
 div.business-features-card-box-img{
     width: 100%;
-    height: 40%;
-    background-color: rgb(128, 101, 27);
+    height: 55%;
+}
+div.business-features-card-box-img img{ 
+    height: 100%;
 }
 div.business-features-card-box-text{
     width: 100%;
-    height: 60%;
-    background-color: grey;
+    height: auto;
+}
+div.business-features-card-box-text h3{
+    font-size: 1.2rem;
+}
+div.business-features-card-box-text p{
+    margin-top: 1rem;
+    font-size: 1rem;
 }
 /*--USERS--*/
 section.users{
     width: 100%;
-    height: 40vh;
-    padding: 3rem 0;
+    padding: 3rem 0 6rem;
+}
+section.users h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 /*--COMPANY PARTNERS--*/
 section.company-partner{
