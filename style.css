@@ -25,7 +25,6 @@
     width: 60%;
     height: 100%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 /*--BODY--*/
 body{
@@ -143,9 +142,9 @@ div.box-plan-general{
     display: flex;
 }
 div.box-business-plan{
-    width: calc((100% / 3) - .5rem);
-    height: 850px;
-    margin: 0.5rem;
+    width: calc((100% / 3) - .3rem);
+    height: 700px;
+    margin: 0.3rem;
     border: 1px solid black;
 }
 div.box-business-plan span{
@@ -158,7 +157,7 @@ div.title-box-plan{
     border-bottom: 1px solid black;
 }
 div.text-box{
-    padding: 1rem .8rem;
+    padding: 0.5rem .5rem;
 }
 div.text-box span.price{
     margin: .8rem 0;
@@ -184,11 +183,14 @@ div.separator-box-busssiness-plan{
     background-color: grey;
     margin: 2rem 0;
 }
+#blue-check{
+    color:#0061ff;
+}
 /*--PLAN--*/
 section.team{
     width: 100%;
     height: 50vh;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 div.box-team{
     height: 100%;
