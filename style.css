@@ -42,6 +42,26 @@ header section.nav{
 nav.main-nav ul li{
     margin: 0 1.5rem;
     display: inline-block;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+/*-BUTTON-*/
+button{
+    font-size: 1.2rem;
+}
+#button-white{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 1rem;
+}
+#button-blue{
+    border:none;
+    background-color: #0061ff;
+    color: white;
+    padding: 0.6rem;
+    cursor: pointer;
+    margin-right: 10px;
 }
 /*--JUMBO SECTION--*/
 header section.jumbo{
