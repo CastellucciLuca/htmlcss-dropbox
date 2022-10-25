@@ -123,30 +123,49 @@ div.jumbo-img>img{
 }
 /*--MAIN--*/
 main{
-    margin-top: 10vh;
+    margin-top: 5rem;
 }
 /*-BUSSINESS PLAN CARDS--*/
 section.bussiness-plan{
     width: 100%;
-    height: 120vh;
-    background-color: lightgrey;
+    height: auto;
     padding: 5rem 0 2.5rem 0;
+    border: 1px solid red;
 }
+section.bussiness-plan h2{
+    font-size: 2.5rem;
+}
+div.time-plan{
+    margin: 2rem 0;
+}
+/*--BOX--*/
 div.box-plan-general{
     width: 100%;
-    height: 100%;
     display: flex;
 }
 div.box-business-plan{
-    width: calc((100% / 3) - .3rem);
-    height: 80%;
-    background-color: #b4d0e7;
-    margin: 0.3rem;
+    width: calc((100% / 3) - .5rem);
+    height: 850px;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+div.box-business-plan span{
+    display: block;
+    margin-top: 0.5rem;
 }
 div.title-box-plan{
     height: 5%;
     width: 100%;
-    background-color: deeppink;
+    border-bottom: 1px solid black;
+}
+div.text-box{
+    padding: 1rem .8rem;
+}
+div.text-box span.price{
+    margin: .8rem 0;
+}
+div.text-box span.duration{
+    color: grey;
 }
 /*--PLAN--*/
 section.team{
