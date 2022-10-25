@@ -395,7 +395,9 @@ div.try-dropbox-right{
 /*--FAQ--*/
 section.faq{
     width: 100%;
-    padding: 3rem 0;
+    padding: 5rem 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 section.faq h2{
     font-size: 2rem;
@@ -417,19 +419,23 @@ div.faq-section-bar span{
 }
 /*--FOOTER--*/
 footer{
-    padding-top: 2rem;
+    padding: 2rem;
     background-color: black;
     color: white;
 }
 section.top-footer{
     width: 100%;
     height: 45%;
+    margin-bottom: 3rem;
 }
-nav.footer-nav{
-    border: 1px solid white;
+nav.footer-nav h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 nav.footer-nav ul li{
     list-style: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
 nav.footer-nav ul li a{
     text-decoration: none;
@@ -439,9 +445,14 @@ nav.footer-nav ul li a{
     width: 10%;
     height: 2px;
     background-color: grey;
-    margin: 2rem 21rem;
+    margin: 2rem 20rem;
 }
 section.bottom-footer{
-    padding: 0rem 21rem 2rem;
+    padding: 1.5rem;
+}
+section.bottom-footer span.language{
     color: grey;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 2rem 18.5rem;
 }
