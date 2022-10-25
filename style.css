@@ -67,38 +67,38 @@ button{
 }
 /*--JUMBO SECTION--*/
 header section.jumbo{
-    max-height: 550px;
+    max-height: 784px;
     min-height: 550px;
     width: 100%;
     height: 150vh;
     background-color: #b4d0e7;
-    padding: 0 2rem;
+    padding: 0 4rem 2rem;
 }
 section.jumbo h1{
-    font-size: 3.8rem;
+    font-size: 4.6rem;
     position: relative;
-    top:10%;
+    top:20%;
+    left:5%
 }
 div.jumbo-text{
-    width: calc(100% - 650px);
-    margin-top: 2rem;
+    width: 40%;
+    padding: 4rem;
 }
 div.jumbo-text p{
-    font-size: 1.1rem;
-    margin-top: 4.5rem;
-    margin-bottom: 2.2rem;
+    font-size: 1rem;
+    margin: 8.5rem auto;
 }
 div.jumbo-button{
     width: 30vh;
-    margin-top: 1.5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 .button-blue{
     border:none;
     background-color: #0061ff;
     color: white;
     padding: 1rem;
+    margin-top: -6rem;
     margin-left: 0;
     margin-right: 0.5rem;
     cursor: pointer;
@@ -113,14 +113,14 @@ div.jumbo-button{
 }
 div.arrow-down{
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0%;
+    left: 5%;
     font-size: 2.5rem;
-    padding-top: 10px;
+
 }
 div.jumbo-img{
-    width: 680px;
-    height: 320px;
+    width: 800px;
+    height: 360px;
     position: absolute;
     bottom: -10px;
     right: 0; 
