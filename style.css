@@ -15,6 +15,11 @@
     justify-content: space-around;
     align-items: center;
 }
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .big-container{
     width: 70%;
     height: 100%;
@@ -371,7 +376,7 @@ div.comprany-partner-square-center-text p{
 /*--TRY DROPBOX--*/
 section.try-dropbox{
     width: 100%;
-    padding: 5rem;
+    padding: 8rem 0;
     background-color: #b4d0e7;
 }
 section.try-dropbox h2{
@@ -380,27 +385,35 @@ section.try-dropbox h2{
 }
 div.try-dropbox-left{
     width: 60%;
-    height: 100%;
+    height: auto;
     padding: 1rem;
 }
 div.try-dropbox-right{
     width: 40%;
-    height: 100%;
+    height: auto;
 }
 /*--FAQ--*/
 section.faq{
     width: 100%;
-    height: 70vh;
     padding: 3rem 0;
 }
-div.faq-section{
-    margin-top: 3rem;
+section.faq h2{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
 }
-div.faq-section span {
-    display: block;
+div.faq-section{
+    margin-top: 2rem;
+    border-top: 1px solid lightgray;
+}
+div.faq-section-bar{
     padding: 2rem 0;
-    border-top: 1px solid black;
-    /*border-bottom: 1px solid black; guarda appunto su html*/
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    justify-content: space-between;
+}
+div.faq-section-bar span{
+    font-size: 1rem;
+    font-weight: bold;
 }
 /*--FOOTER--*/
 footer{
