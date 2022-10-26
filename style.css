@@ -31,9 +31,6 @@
     height: 100%;
     margin: 0 auto;
 }
-.time-plan{
-    justify-content: space-between;
-}
 /*--BODY--*/
 body{
     font-family: 'Open Sans', sans-serif;
@@ -76,17 +73,17 @@ header section.jumbo{
     padding: 0 4rem 2rem;
 }
 section.jumbo h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     position: relative;
     top:20%;
-    left:5%
+    left:4%;
 }
 div.jumbo-text{
     width: 40%;
     padding: 4rem;
 }
 div.jumbo-text p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 8.5rem auto;
 }
 div.jumbo-button{
@@ -99,9 +96,8 @@ div.jumbo-button{
     background-color: #0061ff;
     color: white;
     padding: 1rem;
-    margin-top: -6rem;
+    margin-top: -4.5rem;
     margin-left: 0;
-    margin-right: 0.5rem;
     cursor: pointer;
 }
 .button-default{
@@ -110,6 +106,8 @@ div.jumbo-button{
     padding: 0.6rem;
     margin: 0 auto;
     margin-left: 0;
+    margin-right: 0.6rem;
+    margin-top: 1rem;
     cursor: pointer;
 }
 div.arrow-down{
@@ -136,7 +134,7 @@ main{
 /*-BUSSINESS PLAN --*/
 section.bussiness-plan{
     width: 100%;
-    height: auto;
+    height: 90%;
     padding: 5rem 0 2.5rem 0;
 }
 section.bussiness-plan h2{
@@ -144,6 +142,10 @@ section.bussiness-plan h2{
 }
 div.time-plan{
     margin: 2rem 0;
+    display: flex;
+}
+div.time-plan div.time-plan-annual{
+    margin-left: 2rem;
 }
 /*--BOX--*/
 div.box-plan-general{
@@ -151,9 +153,9 @@ div.box-plan-general{
     display: flex;
 }
 div.box-business-plan{
-    width: calc((100% / 3) - 1.5rem);
+    width: calc((100% / 3) - 0.5rem);
     height: 700px;
-    margin: 1.5rem;
+    margin: 0.5rem;
     border: 1px solid lightgrey;
 }
 div.box-business-plan span{
@@ -179,7 +181,7 @@ div.text-box span.duration{
     border:none;
     background-color: #0061ff;
     color: white;
-    padding: 0.6rem;
+    padding: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0;
@@ -191,6 +193,10 @@ div.separator-box-bussiness-plan{
     height: 1px;
     background-color: grey;
     margin: 2rem 0;
+}
+span.highlight{
+    font-size: 0.9rem;
+    margin: 1rem 0;
 }
 #blue-check{
     color:#0061ff;
